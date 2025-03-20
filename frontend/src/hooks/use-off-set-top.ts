@@ -6,7 +6,6 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 // ----------------------------------------------------------------------
 
 type ReturnType = boolean;
-
 interface UseScrollOptions extends Omit<ScrollOptions, 'container' | 'target'> {
   container?: React.RefObject<HTMLElement>;
   target?: React.RefObject<HTMLElement>;
